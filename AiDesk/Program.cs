@@ -58,7 +58,7 @@ namespace AiDesk
                     }
                 }
 
-                Application.Run(new MainForm(/*settings*/));
+                Application.Run(new MainForm(settings));
             }
             catch (Exception ex)
             {
